@@ -14,6 +14,7 @@
 		3C6B1DC12891231C000EA8A5 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B1DC02891231C000EA8A5 /* LandmarkList.swift */; };
 		3C716FFF288EDF47003EDB8E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C716FFE288EDF47003EDB8E /* CircleImage.swift */; };
 		3C717001288EE4BC003EDB8E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C717000288EE4BC003EDB8E /* MapView.swift */; };
+		9F22555328A87E020062F26E /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22555228A87E020062F26E /* FavoriteButton.swift */; };
 		9F2C2F4128A82B5F002A090E /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2C2F4028A82B5F002A090E /* LandmarkDetail.swift */; };
 		9F353C2828A82BAA0050FCE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F353C2728A82BAA0050FCE1 /* ContentView.swift */; };
 		9FA0AC0B28738E94006C55D2 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA0AC0A28738E94006C55D2 /* LandmarksApp.swift */; };
@@ -29,6 +30,7 @@
 		3C6B1DC02891231C000EA8A5 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		3C716FFE288EDF47003EDB8E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		3C717000288EE4BC003EDB8E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9F22555228A87E020062F26E /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		9F2C2F4028A82B5F002A090E /* LandmarkDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		9F353C2728A82BAA0050FCE1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9FA0AC0728738E94006C55D2 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,11 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				9F353C2728A82BAA0050FCE1 /* ContentView.swift */,
-				3C716FFE288EDF47003EDB8E /* CircleImage.swift */,
-				3C717000288EE4BC003EDB8E /* MapView.swift */,
-				3C0768D9288FCC230035C120 /* LandmarkRow.swift */,
-				3C6B1DC02891231C000EA8A5 /* LandmarkList.swift */,
-				9F2C2F4028A82B5F002A090E /* LandmarkDetail.swift */,
+				3CDA184328AF7E8800830FCF /* Landmarks */,
+				3CDA184228AF7E6F00830FCF /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -76,6 +75,26 @@
 				3C0768D0288FC3B70035C120 /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		3CDA184228AF7E6F00830FCF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3C716FFE288EDF47003EDB8E /* CircleImage.swift */,
+				9F22555228A87E020062F26E /* FavoriteButton.swift */,
+				3C717000288EE4BC003EDB8E /* MapView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3CDA184328AF7E8800830FCF /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				3C0768D9288FCC230035C120 /* LandmarkRow.swift */,
+				3C6B1DC02891231C000EA8A5 /* LandmarkList.swift */,
+				9F2C2F4028A82B5F002A090E /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		9FA0ABFE28738E94006C55D2 = {
@@ -189,6 +208,7 @@
 				3C717001288EE4BC003EDB8E /* MapView.swift in Sources */,
 				9FA0AC0B28738E94006C55D2 /* LandmarksApp.swift in Sources */,
 				3C6B1DC12891231C000EA8A5 /* LandmarkList.swift in Sources */,
+				9F22555328A87E020062F26E /* FavoriteButton.swift in Sources */,
 				9F2C2F4128A82B5F002A090E /* LandmarkDetail.swift in Sources */,
 				3C716FFF288EDF47003EDB8E /* CircleImage.swift in Sources */,
 				9F353C2828A82BAA0050FCE1 /* ContentView.swift in Sources */,
