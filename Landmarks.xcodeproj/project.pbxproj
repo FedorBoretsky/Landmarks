@@ -222,6 +222,7 @@
 				9F353C2828A82BAA0050FCE1 /* ContentView.swift in Sources */,
 				3C0768D3288FC3EE0035C120 /* Landmark.swift in Sources */,
 				3C0768DA288FCC230035C120 /* LandmarkRow.swift in Sources */,
+				3CF261CF28CA13B700030FA0 /*  HexagonParameters.swift in Sources */,
 				3C0768D5288FC7660035C120 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
